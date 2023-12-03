@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Arrumada docs',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -63,6 +63,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      themeConfig: {
+        colorMode: {
+          defaultMode: 'light',
+          disableSwitch: true,
+          respectPrefersColorScheme: false,
+        },
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
