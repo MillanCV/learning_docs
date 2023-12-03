@@ -74,21 +74,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'test',
-            position: 'left',
-            label: 'TestMillan',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'learn_shell',
             position: 'left',
             label: 'Learn Shell',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'nature_of_code',
+            position: 'left',
+            label: 'The Nature Of Code',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

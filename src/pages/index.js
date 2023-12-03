@@ -19,23 +19,16 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/B/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/A/intro">
-            A
-          </Link>
-        </div>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
             to="/docs/learn_shell/intro">
             Learn Shell
           </Link>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/nature_of_code/intro">
+              The Nature Of Code
+            </Link>
+          </div>
         </div>
       </div>
     </header>
